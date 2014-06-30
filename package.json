@@ -1,0 +1,49 @@
+{
+  "name": "regexp-special-chars",
+  "description": "Special RegExp characters, useful for escaping.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/regexp-special-chars",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/regexp-chars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/regexp-chars/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/regexp-chars/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "char",
+    "characters",
+    "chars",
+    "escape",
+    "expression",
+    "re",
+    "regex",
+    "regexp",
+    "regular",
+    "reserved",
+    "special",
+    "str",
+    "string"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "verb": "~0.2.6"
+  }
+}
